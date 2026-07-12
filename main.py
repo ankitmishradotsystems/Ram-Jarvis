@@ -28,7 +28,7 @@ class RAMJarvis:
     Responsible for initializing modules and managing the execution lifecycle.
     """
 
-    def _init_(self, config_path: str = "config/settings.yaml"):
+    def __init__(self, config_path: str = "config/settings.yaml"):
         """
         Initializes the agent with configuration settings.
         :param config_path: Path to the configuration file in the config/ directory.
